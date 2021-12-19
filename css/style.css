@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* ↓設定した文字サイズを正しく反映する */
+html {
+  font-size: 100%;
+
+}
+body {
+  font-family: "Yu Gothic Medium","sans-serif";
+  line-height: 1.7;
+  margin: 0px;
+  background-image: url(../images/main_background.jpg);
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+
+/* ↓aタグの傍線の指定 */
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+  
+
+.logo-main {
+  width: 120px;
+  margin: 20px;
+  /* ↓行の高さをゼロとしロゴの高さに丁度合う形へ設定 */
+  line-height: 0;
+  align-items: center;
+}
+  
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.main-nav li {
+   margin-left: 50px;
+}
+
+.main-nav a {
+   color: #ffffff;
+}
+  
+.main-nav a:hover {
+   color: darkred;
+}
+
+.page-header {
+   /* ↓横並びの指定(よく使う) */
+   display: flex;
+   /* ↓両端の設置の指定 */
+   justify-content: space-between;
+   width: 100%;
+   
+}
+
+.page-header {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 0;
+   background-color: #D58E76;
+}
+
+.resizeimage {
+  margin-bottom: 30px;
+}
+
+/* ///////メインエリアバナー部分/// */
+
+article {
+  width: 58%;
+}
+
+.sub-banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* ///////サイドバナー部分/// */
+
+aside {
+  width: 25%;
+  padding-left: 10px;
+  
+}
+
+
+
+/* フッター */
+footer {
+  background: #D58E76;
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  
+}
+
+.copy {
+  padding-bottom: 10px;
+}
