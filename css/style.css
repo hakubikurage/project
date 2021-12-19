@@ -100,16 +100,37 @@ aside {
 /* フッター */
 footer {
   background: #D58E76;
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
+  color: #ffffff;
 }
 
 footer p {
   color: rgb(255, 255, 255);
   font-size: 0.875rem;
-  
 }
 
 .copy {
+  padding-top: 100px;
   padding-bottom: 10px;
+  text-align: center;
 }
+
+.footer01 {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.footer02 {
+  padding-bottom: 100px;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-access-body {
+  width: 25%;
+}
+
