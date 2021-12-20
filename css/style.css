@@ -130,6 +130,15 @@ footer p {
   justify-content: space-around;
 }
 
+.footer-body a {
+  color: #ffffff;
+}
+
+.footer-body a:hover {
+  color: darkred
+}
+
+
 .footer-access-body {
   width: 25%;
 }
