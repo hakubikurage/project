@@ -121,8 +121,8 @@ footer p {
   font-size: 0.9rem;
 }
 
-.footer02 {
-  padding-bottom: 100px;
+.footer02 li {
+  padding-bottom: 0.5em;
 }
 
 .footer-body {
