@@ -75,7 +75,7 @@ img {
   margin-bottom: 30px;
 }
 
-/* ///////メインエリアバナー部分/// */
+/* /////メインエリアバナー部分/// */
 
 article {
   width: 58%;
@@ -87,7 +87,7 @@ article {
   margin-bottom: 50px;
 }
 
-/* ///////サイドバナー部分/// */
+/* /////サイドバナー部分/// */
 
 aside {
   width: 25%;
@@ -97,7 +97,7 @@ aside {
 
 
 
-/* フッター */
+/* /////フッター////////// */
 footer {
   background: #D58E76;
   text-align: left;
@@ -142,6 +142,15 @@ footer p {
 .footer-access-body {
   width: 25%;
 }
+
+.footer-access-body {
+  font-size: 0.9rem;
+  
+}
+
+
+
+/* /////トップへ戻るボタン//// */
 
 #page_top{
   width: 100px;
