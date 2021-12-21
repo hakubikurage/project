@@ -145,9 +145,13 @@ footer p {
 
 .footer-access-body {
   font-size: 0.9rem;
-  
 }
 
+.footer-all-link img {
+  width: 50px;
+  display: flex;
+  
+}
 
 
 /* /////トップへ戻るボタン//// */
