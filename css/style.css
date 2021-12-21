@@ -84,7 +84,14 @@ article {
 .sub-banner {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+}
+
+.sub-banner img {
+  margin-bottom: 10px;
+}
+
+.sub-banner img:hover {
+  opacity: 0.7;
 }
 
 /* /////サイドバナー部分/// */
@@ -149,9 +156,9 @@ footer p {
 
 .footer-all-link img {
   width: 50px;
-  display: flex;
-  
 }
+
+
 
 
 /* /////トップへ戻るボタン//// */
