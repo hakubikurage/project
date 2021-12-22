@@ -158,6 +158,16 @@ footer p {
   width: 50px;
 }
 
+.footer-ig-icon {
+  justify-content: flex-start;
+}
+
+.sample1 .caption {
+	font-size: 0.3rem;
+	text-align: right;
+	padding-top: 5px;
+	color: #fff;
+}
 
 
 
