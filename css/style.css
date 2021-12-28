@@ -25,6 +25,7 @@ img {
   max-width: 100%;
 }
   
+/* /////ヘッダー部分/// */
 
 .logo-main {
   width: 120px;
@@ -55,22 +56,16 @@ img {
    color: darkred;
 }
 
-/* /////ヘッダー部分/// */
-
 .page-header {
    /* ↓横並びの指定(よく使う) */
    display: flex;
    /* ↓両端の設置の指定 */
    justify-content: space-between;
    width: 100%;
-   
-}
-
-.page-header {
-   width: 100%;
    margin: 0 auto;
    padding: 0 0;
    background-color: #D58E76;
+   /* position: fixed; */
 }
 
 /* /////スライダー部分/// */
