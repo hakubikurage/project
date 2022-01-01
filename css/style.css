@@ -62,11 +62,17 @@ img {
    /* ↓両端の設置の指定 */
    justify-content: space-between;
    width: 100%;
+   /* height: 20%;  */
    margin: 0 auto;
    padding: 0 0;
    background-color: #D58E76;
-   /* position: fixed; */
+   /* position: absolute; */
+  position: fixed;
+  z-index:500;
+   top: 0; /* 上下の固定位置を上から0pxにする */
+   left: 0; /* 左右の固定位置を左から0pxにする */
 }
+
 
 /* /////各ページ共通部分/// */
 
@@ -90,6 +96,7 @@ img {
   max-width: 90%;
   margin: 0 auto;
   padding: 0 25px;
+  position: relative;
 }
 .sliderArea.w300 {
   max-width: 300px;
