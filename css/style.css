@@ -79,18 +79,29 @@ img {
 /* /////各ページ共通部分/// */
 
 .main-top {
-  margin-top: 20px;
+  margin-top: 150px;
   font-size: 2em;
   display: flex;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  color: sienna;
 }
 
 .main-top p {
   font-size: 0.8em;
   padding-bottom: 50px;
 }
+
+/* /////一時表記/// */
+
+.comming-soon {
+  font-size: 6rem;
+  color: bisque;
+  text-align: center;
+  margin: 100px;
+} 
+
 
 /* /////スライダー部分/// */
 
