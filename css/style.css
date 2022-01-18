@@ -8,7 +8,6 @@ html {
 body {
   font-family: "Yu Gothic Medium","sans-serif";
   line-height: 1.7;
-  margin: 0px;
   background-image: url(../images/main_background.jpg);
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -174,9 +173,22 @@ article {
 aside {
   width: 25%;
   padding-left: 10px;
-  
 }
 
+/* /////きものギャラリー////////// */
+
+.gallery-logo {
+  margin: 70px auto 0;
+  padding: 0 25px;
+  width: 60%;
+  float: left;
+}
+
+.slideBox1 {
+  width: 75%;
+  margin: 0 auto;
+
+}
 
 
 /* /////フッター////////// */
