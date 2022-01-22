@@ -190,6 +190,27 @@ aside {
 
 }
 
+.gr-page {
+  text-align: center;
+  margin: 30px;
+}
+
+.gr-page li {
+  display: inline-block;
+  height:40px;
+  line-height:40px;
+  width:40px;
+  text-align:center;
+  border:1px #ccc solid;
+  color:#000053;
+  border-radius: 5px / 5px;
+}
+
+.gr-page .pre {background-color:#ccc;color:#333;}
+.gr-page .this {background-color:#777;color:#fff;}
+.gr-page li a{display:block;text-decoration: none;}
+.gr-page li a:hover {color: #fff;text-decoration: none;background-color: #003396;}
+
 
 /* /////フッター////////// */
 footer {
