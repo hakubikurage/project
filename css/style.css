@@ -220,16 +220,48 @@ aside {
   padding-top: 40px;
 }
 
+.nowCampaign h2 {
+  width: 100%;
+  margin-top: 0;
+}
+
 .main-cp {
-  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 
 .main-cp img {
-  margin-right: 20px;
+  margin: 0;
+  padding: 0;
 }
 
+hr.line1 {
+  margin-top: 40px;
+  width: 100%;
+  border:none;
+  height:30px;
+  box-shadow:0 -30px 30px -30px rgb(238, 159, 128) inset;
+}
 
+hr.line2 {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border:none;
+  height:30px;
+  box-shadow:0 30px 30px -30px rgb(238, 159, 128) inset;
+}
+
+.sub-cp1 h3 {
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: solid 3px #D58E76;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #D58E76;
+}
 
 /* /////フッター////////// */
 footer {
