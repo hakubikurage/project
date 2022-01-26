@@ -263,6 +263,17 @@ hr.line2 {
   background-color: #D58E76;
 }
 
+.cp-sub-img {
+  display:flex;/* flexbox */
+  justify-content:left; /* 水平方向 */
+  align-items: center;
+}
+
+.cp-sub-img img {
+  width: 45%;
+  padding-right: 50px;
+}
+
 /* /////フッター////////// */
 footer {
   background: #D58E76;
