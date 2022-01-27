@@ -220,7 +220,7 @@ aside {
   padding-top: 40px;
 }
 
-.nowCampaign h2 {
+.nowCampaign h1 {
   width: 100%;
   margin-top: 0;
 }
@@ -272,6 +272,20 @@ hr.line2 {
 .cp-sub-img img {
   width: 45%;
   padding-right: 50px;
+  padding-bottom: 40px;
+}
+
+.cp-yoyaku {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0.4em 1em 0.2em;
+  color: #ffffff;
+  border: #ffffff dashed 1px;
+  box-shadow: 0 0 0 0.2em #D58E76;
+  border-radius: 2.5px;
+  background-color: #D58E76;
+  cursor: pointer;
+  margin-bottom: 100px;
 }
 
 /* /////フッター////////// */
