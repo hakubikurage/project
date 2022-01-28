@@ -175,6 +175,22 @@ aside {
   padding-left: 10px;
 }
 
+
+/* /////プラン一覧////////// */
+
+.plan-list {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.plan-list li {
+  width: 25%;
+  padding: 10px;
+}
+
+
+
+
 /* /////きものギャラリー////////// */
 
 .gallery-logo {
