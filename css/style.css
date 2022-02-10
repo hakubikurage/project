@@ -188,7 +188,37 @@ aside {
   padding: 10px;
 }
 
+.planTitle {
+  font-weight: bold;
+}
 
+.txt-hide {
+  display: none;
+}
+
+button .more {
+  width: 60px;
+  height: 60px;
+  background-color: #D58E76;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  transition: .5s;
+  -webkit-transition: .5s;
+}
+
+button .more::after {
+  content: "More";
+  transition: .2s;
+  -webkit-transition: .2s;
+}
+
+button .more .on-click::after {
+  content: "Close";
+}
 
 
 /* /////きものギャラリー////////// */
