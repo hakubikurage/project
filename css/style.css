@@ -192,34 +192,20 @@ aside {
   font-weight: bold;
 }
 
-.txt-hide {
-  display: none;
-}
-
-button .more {
-  width: 60px;
-  height: 60px;
+.planButton {
   background-color: #D58E76;
-  margin: 20px auto;
-  display: block;
+  text-align: center;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   color: #fff;
-  padding: 10px;
-  border: none;
-  transition: .5s;
-  -webkit-transition: .5s;
+  margin: 0 auto;
+  line-height: 65px;
 }
 
-button .more::after {
-  content: "More";
-  transition: .2s;
-  -webkit-transition: .2s;
+.close {
+  background-color: #333;
 }
-
-button .more .on-click::after {
-  content: "Close";
-}
-
 
 /* /////きものギャラリー////////// */
 
