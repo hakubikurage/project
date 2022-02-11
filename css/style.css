@@ -181,6 +181,7 @@ aside {
 .plan-list {
   display: inline-flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .plan-list li {
@@ -189,7 +190,8 @@ aside {
 }
 
 .planTitle {
-  font-weight: bold;
+  font-weight: 900;
+  font-size: larger;
 }
 
 .planButton {
@@ -201,6 +203,7 @@ aside {
   color: #fff;
   margin: 0 auto;
   line-height: 65px;
+  cursor: pointer;
 }
 
 .close {
