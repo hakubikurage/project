@@ -4,7 +4,7 @@
 {
     document.head.insertAdjacentHTML('afterbegin' ,`
     <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,intial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="ハクビ京都きもの学院プロデュースのきものレンタル＆撮影スタジオ">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="css/reset.css">
@@ -28,4 +28,3 @@
 //         }
 //     });
 // }
-
